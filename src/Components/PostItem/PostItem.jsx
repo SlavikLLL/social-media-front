@@ -6,7 +6,7 @@ import Heart from '../../img/like.png'
 import NotLike from '../../img/notlike.png'
 const PostItem = ({data}) => {
   return (
-    <div className="PostItem">
+    <div className="PostItem" >
     <img src={data.img} alt="" />
     <div className="reactions">
         <img src={data.liked?Heart:NotLike} alt="" />
